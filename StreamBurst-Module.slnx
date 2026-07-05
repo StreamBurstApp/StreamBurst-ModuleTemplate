@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DesignerPreview/DesignerPreview.csproj" />
+  <Project Path="Module/Module.csproj" Id="9e53babe-66cd-4955-b435-6f10fb5cab7a" />
+</Solution>
