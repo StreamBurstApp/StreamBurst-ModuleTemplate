@@ -15,7 +15,9 @@ namespace DesignerPreview
         {
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                desktop.MainWindow = new MainWindow();
+                MainWindow mw = new MainWindow();
+                desktop.MainWindow = mw;
+                desktop.ShutdownRequested += (_, _) => mw.ShutDown();
             }
 
             base.OnFrameworkInitializationCompleted();

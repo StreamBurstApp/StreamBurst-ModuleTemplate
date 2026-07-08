@@ -15,7 +15,7 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)'!='Debug'">
-		<PackageReference Include="StreamBurst.Abstractions" Version="1.0.4" />
+		<PackageReference Include="StreamBurst.Abstractions" Version="1.0.5" />
 	</ItemGroup>
 
 	<ItemGroup>
